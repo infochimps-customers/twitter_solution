@@ -1,0 +1,3072 @@
+
+
+Started GET "/data" for 127.0.0.1 at Fri Oct 07 15:38:05 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/data"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.1ms)
+
+
+Started GET "/data" for 127.0.0.1 at Fri Oct 07 15:38:54 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/data"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/data" for 127.0.0.1 at Fri Oct 07 15:38:56 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/data"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/application/data" for 127.0.0.1 at Fri Oct 07 15:38:59 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed 200 OK in 510ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/data" for 127.0.0.1 at Fri Oct 07 15:40:48 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed 500 Internal Server Error in 263ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/application_controller.rb:19:in `data'
+  app/controllers/application_controller.rb:13:in `each'
+  app/controllers/application_controller.rb:13:in `data'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/application/data" for 127.0.0.1 at Fri Oct 07 15:41:12 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed 200 OK in 613ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/data" for 127.0.0.1 at Fri Oct 07 15:42:00 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed 200 OK in 741ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/data" for 127.0.0.1 at Fri Oct 07 15:43:22 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed 200 OK in 1720ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at Mon Oct 10 14:07:56 -0500 2011
+Served asset /rails.png - 200 OK (3ms)
+
+
+Started GET "/data" for 127.0.0.1 at Mon Oct 10 14:08:22 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/data"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/data/" for 127.0.0.1 at Mon Oct 10 14:08:27 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/data"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:11:03 -0500 2011
+  Processing by ApplicationController#data as HTML
+Completed 200 OK in 4149ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:30:55 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 438ms
+
+OpenURI::HTTPError (401 Unauthorized):
+  app/controllers/application_controller.rb:23:in `influencemetrics'
+  app/controllers/application_controller.rb:19:in `each'
+  app/controllers/application_controller.rb:19:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:31:31 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 200ms
+
+OpenURI::HTTPError (401 Unauthorized):
+  app/controllers/application_controller.rb:25:in `influencemetrics'
+  app/controllers/application_controller.rb:19:in `each'
+  app/controllers/application_controller.rb:19:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:32:02 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 3564ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:46:12 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 703ms
+
+NoMethodError (undefined method `enthusiasm' for #<Hash:0x104f0a988>):
+  app/controllers/application_controller.rb:33:in `influencemetrics'
+  app/controllers/application_controller.rb:22:in `each'
+  app/controllers/application_controller.rb:22:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:46:23 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 205ms
+
+TypeError (can't convert nil into String):
+  app/controllers/application_controller.rb:33:in `+'
+  app/controllers/application_controller.rb:33:in `influencemetrics'
+  app/controllers/application_controller.rb:22:in `each'
+  app/controllers/application_controller.rb:22:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:46:33 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 227ms
+
+TypeError (can't convert nil into String):
+  app/controllers/application_controller.rb:33:in `+'
+  app/controllers/application_controller.rb:33:in `influencemetrics'
+  app/controllers/application_controller.rb:22:in `each'
+  app/controllers/application_controller.rb:22:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:46:53 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 188ms
+
+TypeError (can't convert Float into String):
+  app/controllers/application_controller.rb:33:in `+'
+  app/controllers/application_controller.rb:33:in `influencemetrics'
+  app/controllers/application_controller.rb:22:in `each'
+  app/controllers/application_controller.rb:22:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:48:35 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 3480ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:50:38 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 4687ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:52:35 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 4265ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:58:24 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 4896ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 14:58:38 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 4555ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:01:32 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 4449ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:01:48 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 4293ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:05:05 -0500 2011
+
+SyntaxError (/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:33: odd number list for Hash):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:05:19 -0500 2011
+
+SyntaxError (/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:33: odd number list for Hash):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:05:32 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 430ms
+
+TypeError (can't convert String into Integer):
+  app/controllers/application_controller.rb:33:in `[]='
+  app/controllers/application_controller.rb:33:in `influencemetrics'
+  app/controllers/application_controller.rb:23:in `each'
+  app/controllers/application_controller.rb:23:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:05:59 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 4474ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:11:52 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 200 OK in 4926ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:13:37 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 3056ms
+
+ActionView::MissingTemplate (Missing template application/influencemetrics with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:coffee, :erb, :builder]}. Searched in:
+  * "/Users/jimengland/Code/trstrank/app/views"
+):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:17:41 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (14.2ms)
+Completed 500 Internal Server Error in 3479ms
+
+ActionView::Template::Error (undefined local variable or method `table' for #<#<Class:0x104bb9ce8>:0x104bb48d8>):
+    1: 
+    2: 
+    3: <% table.each do |u| %>
+    4: 
+    5: <p>
+    6: <strong><%= table[u] %></strong> <br/>
+  app/views/application/influencemetrics.html.erb:3:in `_app_views_application_influencemetrics_html_erb__1143619591_2187170980'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (37.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (40.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:18:10 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 269ms
+
+NameError (undefined local variable or method `table' for #<ApplicationController:0x104f9e188>):
+  app/controllers/application_controller.rb:33:in `influencemetrics'
+  app/controllers/application_controller.rb:23:in `each'
+  app/controllers/application_controller.rb:23:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:18:20 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (48.4ms)
+Completed 500 Internal Server Error in 3029ms
+
+ActionView::Template::Error (undefined local variable or method `table' for #<#<Class:0x104beee70>:0x104beaf28>):
+    3: <% @table.each do |u| %>
+    4: 
+    5: <p>
+    6: <strong><%= table[u] %></strong> <br/>
+    7: 
+    8: Enthusiasm: <%= table[u]["enthusiasm"]%> <br/>
+    9: Sway: <%= table[u]["sway"]%> <br/>
+  app/views/application/influencemetrics.html.erb:6:in `_app_views_application_influencemetrics_html_erb__1143619591_2187283640'
+  app/views/application/influencemetrics.html.erb:3:in `each'
+  app/views/application/influencemetrics.html.erb:3:in `_app_views_application_influencemetrics_html_erb__1143619591_2187283640'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:19:19 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3238ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    3: <% @table.each do |u| %>
+    4: 
+    5: <p>
+    6: <strong><%= u["username"] %></strong> <br/>
+    7: 
+    8: Enthusiasm: <%= u["enthusiasm"]%> <br/>
+    9: Sway: <%= u["sway"]%> <br/>
+  app/views/application/influencemetrics.html.erb:6:in `[]'
+  app/views/application/influencemetrics.html.erb:6:in `_app_views_application_influencemetrics_html_erb__1143619591_2187491200'
+  app/views/application/influencemetrics.html.erb:3:in `each'
+  app/views/application/influencemetrics.html.erb:3:in `_app_views_application_influencemetrics_html_erb__1143619591_2187491200'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:20:11 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4338ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+    3: <% @table.each do |u| %>
+    4: 
+    5: <p>
+    6: <strong><%= @table[u]["username"] %></strong> <br/>
+    7: 
+    8: Enthusiasm: <%= u["enthusiasm"]%> <br/>
+    9: Sway: <%= u["sway"]%> <br/>
+  app/views/application/influencemetrics.html.erb:6:in `_app_views_application_influencemetrics_html_erb__1143619591_2189470860'
+  app/views/application/influencemetrics.html.erb:3:in `each'
+  app/views/application/influencemetrics.html.erb:3:in `_app_views_application_influencemetrics_html_erb__1143619591_2189470860'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:20:53 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 3397ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    5: <p>
+    6: 
+    7: 
+    8: Enthusiasm: <%= u["enthusiasm"]%> <br/>
+    9: Sway: <%= u["sway"]%> <br/>
+    10: Interesting: <%= u["interesting"]%> <br/>
+    11: 
+  app/views/application/influencemetrics.html.erb:8:in `[]'
+  app/views/application/influencemetrics.html.erb:8:in `_app_views_application_influencemetrics_html_erb__1143619591_2187484680'
+  app/views/application/influencemetrics.html.erb:3:in `each'
+  app/views/application/influencemetrics.html.erb:3:in `_app_views_application_influencemetrics_html_erb__1143619591_2187484680'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:21:19 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+ERROR: compiling _app_views_application_influencemetrics_html_erb__1143619591_2189341180 RAISED compile error
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:8: syntax error, unexpected ':', expecting ')'
+Enthusiasm: ');@output_buffer.append= ( #...
+           ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:8: syntax error, unexpected '>'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9: syntax error, unexpected '>'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:10: syntax error, unexpected '>'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:12: unterminated string meets end of file
+Function body:           def _app_views_application_influencemetrics_html_erb__1143619591_2189341180(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "application/influencemetrics";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+
+'); #@table.each do |u| 
+@output_buffer.safe_concat('
+<p>
+<strong>');@output_buffer.append= ( #@table[u]["username"] );@output_buffer.safe_concat('</strong> <br/>
+
+Enthusiasm: ');@output_buffer.append= ( #u["enthusiasm"]);@output_buffer.safe_concat(' <br/>
+Sway: ');@output_buffer.append= ( #u["sway"]);@output_buffer.safe_concat(' <br/>
+Interesting: ');@output_buffer.append= ( #u["interesting"]);@output_buffer.safe_concat(' <br/>
+
+</p>
+
+'); #end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:12:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__2115867319__process_action__37207024__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/handler/webrick.rb:59:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/server.rb:265:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands/server.rb:70:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:54
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49:in `tap'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered application/influencemetrics.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 3656ms
+
+ActionView::Template::Error (compile error
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:8: syntax error, unexpected ':', expecting ')'
+Enthusiasm: ');@output_buffer.append= ( #...
+           ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:8: syntax error, unexpected '>'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9: syntax error, unexpected '>'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:10: syntax error, unexpected '>'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:12: unterminated string meets end of file):
+    5: <p>
+    6: <strong><%= #@table[u]["username"] %></strong> <br/>
+    7: 
+    8: Enthusiasm: <%= #u["enthusiasm"]%> <br/>
+    9: Sway: <%= #u["sway"]%> <br/>
+    10: Interesting: <%= #u["interesting"]%> <br/>
+    11: 
+  app/views/application/influencemetrics.html.erb:12:in `compile'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:21:37 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.2ms)
+Compiled application.css  (22ms)  (pid 5287)
+Compiled application.js  (9ms)  (pid 5287)
+Compiled jquery.js  (13ms)  (pid 5287)
+Compiled jquery_ujs.js  (1ms)  (pid 5287)
+Completed 200 OK in 3153ms (Views: 108.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 15:21:40 -0500 2011
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 15:21:40 -0500 2011
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 15:21:40 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 15:21:40 -0500 2011
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:22:14 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4401ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 15:22:18 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 15:22:18 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 15:22:18 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 15:22:18 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:35:29 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 467ms
+
+TypeError (can't convert String into Integer):
+  app/controllers/application_controller.rb:37:in `[]='
+  app/controllers/application_controller.rb:37:in `influencemetrics'
+  app/controllers/application_controller.rb:25:in `each'
+  app/controllers/application_controller.rb:25:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:36:05 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 240ms
+
+TypeError (can't convert String into Integer):
+  app/controllers/application_controller.rb:37:in `[]='
+  app/controllers/application_controller.rb:37:in `influencemetrics'
+  app/controllers/application_controller.rb:25:in `each'
+  app/controllers/application_controller.rb:25:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 15:39:38 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4447ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 15:39:43 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 15:39:43 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 15:39:43 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 15:39:43 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:10:50 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 1211ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:11:19 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 917ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:11:41 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 945ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/application_controller.rb:39:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:11:51 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3511ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:11:55 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:11:55 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:11:55 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:11:55 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:12:35 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4696ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:12:40 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:12:40 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:12:40 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:12:40 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:16:30 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 1019ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:16:55 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 928ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:17:09 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3320ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:17:12 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:17:12 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:17:12 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:17:12 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:17:24 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 991ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:17:45 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 6167ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:17:51 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:17:51 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:17:52 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:17:52 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:18:13 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 1595ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:18:33 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4849ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:18:38 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:18:38 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:18:38 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:18:38 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:20:41 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3538ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:20:45 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:20:45 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:20:45 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:20:45 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:20:53 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 4031ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:20:57 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:20:57 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:20:57 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:20:57 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:21:02 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3353ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:21:05 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:05 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:05 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:05 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:21:16 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3332ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:21:19 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:19 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:19 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:19 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:21:25 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3094ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:21:28 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:28 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:28 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:21:28 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:21:43 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 803ms
+
+TypeError (nil can't be coerced into Float):
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:22:04 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3551ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:22:08 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:22:08 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:22:08 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:22:08 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:24:11 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3395ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:24:14 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:24:14 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:24:14 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:24:14 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:33:44 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3940ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:33:48 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:33:48 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:33:48 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:33:48 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:44:10 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 5555ms
+
+ActionView::Template::Error (undefined method `value' for "aseever":String):
+    5: 
+    6: <% @users.each do |u| %>
+    7:   
+    8:   <%= u.value %>
+    9:   
+    10: <% end %>
+  app/views/application/influencemetrics.html.erb:8:in `_app_views_application_influencemetrics_html_erb__1143619591_2189357860'
+  app/views/application/influencemetrics.html.erb:6:in `each'
+  app/views/application/influencemetrics.html.erb:6:in `_app_views_application_influencemetrics_html_erb__1143619591_2189357860'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:44:26 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 5481ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:44:31 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:44:31 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:44:31 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:44:31 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:45:27 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4680ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:45:32 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:45:32 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:45:32 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:45:32 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:46:16 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3759ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:46:20 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:46:20 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:46:20 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:46:20 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:46:43 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+ERROR: compiling _app_views_application_influencemetrics_html_erb__1143619591_2189101060 RAISED compile error
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:4: syntax error, unexpected '{', expecting ')'
+..._buffer.append= ( @influence {u} );@output_buffer.safe_conca...
+                              ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:6: syntax error, unexpected kEND, expecting ')'
+'); end ;@output_buffer.to_s
+       ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:7: syntax error, unexpected kENSURE, expecting ')'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_application_influencemetrics_html_erb__1143619591_2189101060(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "application/influencemetrics";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+'); @users.each do |u| 
+@output_buffer.safe_concat('  
+  ');@output_buffer.append= ( u );@output_buffer.safe_concat(' ');@output_buffer.append= ( @influence {u} );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  
+'); end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__2115867319__process_action__37207024__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/handler/webrick.rb:59:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/server.rb:265:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands/server.rb:70:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:54
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49:in `tap'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered application/influencemetrics.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5020ms
+
+ActionView::Template::Error (compile error
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:4: syntax error, unexpected '{', expecting ')'
+..._buffer.append= ( @influence {u} );@output_buffer.safe_conca...
+                              ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:6: syntax error, unexpected kEND, expecting ')'
+'); end ;@output_buffer.to_s
+       ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:7: syntax error, unexpected kENSURE, expecting ')'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9: syntax error, unexpected kEND, expecting ')'):
+    1: 
+    2: <% @users.each do |u| %>
+    3:   
+    4:   <%= u %> <%= @influence {u} %>
+    5:   
+    6: <% end %>
+  app/views/application/influencemetrics.html.erb:9:in `compile'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:47:01 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+ERROR: compiling _app_views_application_influencemetrics_html_erb__1143619591_2187072180 RAISED compile error
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:4: syntax error, unexpected '{', expecting ')'
+..._buffer.append= ( @influence {:username = u} );@output_buffe...
+                              ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:6: syntax error, unexpected kEND, expecting ')'
+'); end ;@output_buffer.to_s
+       ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:7: syntax error, unexpected kENSURE, expecting ')'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_application_influencemetrics_html_erb__1143619591_2187072180(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "application/influencemetrics";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+'); @users.each do |u| 
+@output_buffer.safe_concat('  
+  ');@output_buffer.append= ( u );@output_buffer.safe_concat(' ');@output_buffer.append= ( @influence {:username = u} );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  
+'); end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__2115867319__process_action__37207024__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/handler/webrick.rb:59:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/server.rb:265:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands/server.rb:70:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:54
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49:in `tap'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered application/influencemetrics.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4273ms
+
+ActionView::Template::Error (compile error
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:4: syntax error, unexpected '{', expecting ')'
+..._buffer.append= ( @influence {:username = u} );@output_buffe...
+                              ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:6: syntax error, unexpected kEND, expecting ')'
+'); end ;@output_buffer.to_s
+       ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:7: syntax error, unexpected kENSURE, expecting ')'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9: syntax error, unexpected kEND, expecting ')'):
+    1: 
+    2: <% @users.each do |u| %>
+    3:   
+    4:   <%= u %> <%= @influence {:username = u} %>
+    5:   
+    6: <% end %>
+  app/views/application/influencemetrics.html.erb:9:in `compile'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:47:14 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+ERROR: compiling _app_views_application_influencemetrics_html_erb__1143619591_2188791960 RAISED compile error
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:4: syntax error, unexpected '{', expecting ')'
+...t_buffer.append= ( @influence{:username = u} );@output_buffe...
+                              ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:6: syntax error, unexpected kEND, expecting ')'
+'); end ;@output_buffer.to_s
+       ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:7: syntax error, unexpected kENSURE, expecting ')'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_application_influencemetrics_html_erb__1143619591_2188791960(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "application/influencemetrics";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('
+'); @users.each do |u| 
+@output_buffer.safe_concat('  
+  ');@output_buffer.append= ( u );@output_buffer.safe_concat(' ');@output_buffer.append= ( @influence{:username = u} );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  
+'); end ;@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__2115867319__process_action__37207024__callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `action'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/Library/Ruby/Gems/1.8/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/etag.rb:23:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/conditionalget.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:195:in `context'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/session/abstract/id.rb:190:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `send'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/sendfile.rb:101:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/runtime.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/lock.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/handler/webrick.rb:59:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/handler/webrick.rb:13:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.3.4/lib/rack/server.rb:265:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands/server.rb:70:in `start'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:54
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49:in `tap'
+/Library/Ruby/Gems/1.8/gems/railties-3.1.0/lib/rails/commands.rb:49
+script/rails:6:in `require'
+script/rails:6
+Rendered application/influencemetrics.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 5010ms
+
+ActionView::Template::Error (compile error
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:4: syntax error, unexpected '{', expecting ')'
+...t_buffer.append= ( @influence{:username = u} );@output_buffe...
+                              ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:6: syntax error, unexpected kEND, expecting ')'
+'); end ;@output_buffer.to_s
+       ^
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:7: syntax error, unexpected kENSURE, expecting ')'
+/Users/jimengland/Code/trstrank/app/views/application/influencemetrics.html.erb:9: syntax error, unexpected kEND, expecting ')'):
+    1: 
+    2: <% @users.each do |u| %>
+    3:   
+    4:   <%= u %> <%= @influence{:username = u} %>
+    5:   
+    6: <% end %>
+  app/views/application/influencemetrics.html.erb:9:in `compile'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:47:33 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5382ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:47:39 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:47:39 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:47:39 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:47:39 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:47:51 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 5857ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Mon Oct 10 16:47:57 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Mon Oct 10 16:47:57 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Mon Oct 10 16:47:57 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Mon Oct 10 16:47:57 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Oct 10 16:48:07 -0500 2011
+
+SyntaxError (/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:38: odd number list for Hash):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:06:04 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 661ms
+
+TypeError (can't convert String into Integer):
+  app/controllers/application_controller.rb:38:in `[]='
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:06:36 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 184ms
+
+TypeError (can't convert String into Integer):
+  app/controllers/application_controller.rb:38:in `[]='
+  app/controllers/application_controller.rb:38:in `influencemetrics'
+  app/controllers/application_controller.rb:24:in `each'
+  app/controllers/application_controller.rb:24:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:06:57 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (20.6ms)
+Completed 500 Internal Server Error in 3268ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    1: 
+    2: <% @users.each do |u| %>
+    3:   
+    4:   <%= u %> <%= @influence[u] %> <br/>
+    5:   
+    6: <% end %>
+  app/views/application/influencemetrics.html.erb:4:in `[]'
+  app/views/application/influencemetrics.html.erb:4:in `_app_views_application_influencemetrics_html_erb__1143619591_2274185900'
+  app/views/application/influencemetrics.html.erb:2:in `each'
+  app/views/application/influencemetrics.html.erb:2:in `_app_views_application_influencemetrics_html_erb__1143619591_2274185900'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:08:39 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2924ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:16:19 -0500 2011
+
+SyntaxError (/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:35: odd number list for Hash):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:16:33 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 2941ms
+
+NoMethodError (undefined method `<=>' for {"sway"=>0.0}:Hash):
+  app/controllers/application_controller.rb:49:in `sort_by'
+  app/controllers/application_controller.rb:49:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:17:01 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4381ms
+
+ActionView::Template::Error (undefined method `value' for ["dhruvbansal", 0.0]:Array):
+    1: 
+    2: <% @table.each do |u| %>
+    3:   
+    4:   <%= u %> <%= u.value %> <br/>
+    5:   
+    6: <% end %>
+  app/views/application/influencemetrics.html.erb:4:in `_app_views_application_influencemetrics_html_erb__1143619591_2272019100'
+  app/views/application/influencemetrics.html.erb:2:in `each'
+  app/views/application/influencemetrics.html.erb:2:in `_app_views_application_influencemetrics_html_erb__1143619591_2272019100'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:17:37 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2907ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:17:40 -0500 2011
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:17:40 -0500 2011
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:17:40 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:17:40 -0500 2011
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:27:54 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 2778ms
+
+NoMethodError (undefined method `[]' for 0.09627728:Float):
+  app/controllers/application_controller.rb:37:in `influencemetrics'
+  app/controllers/application_controller.rb:37:in `each'
+  app/controllers/application_controller.rb:37:in `sort_by'
+  app/controllers/application_controller.rb:37:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:28:28 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3493ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:28:32 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:28:32 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:28:32 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:28:32 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:30:21 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Completed 500 Internal Server Error in 3196ms
+
+NoMethodError (undefined method `sort_by!' for #<Array:0x10ee57c48>):
+  app/controllers/application_controller.rb:37:in `influencemetrics'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:31:33 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 4415ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:31:38 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:31:38 -0500 2011
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:31:38 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:31:38 -0500 2011
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:31:58 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2855ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:32:01 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:32:01 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:32:01 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:32:01 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:32:16 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3060ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:32:19 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:32:19 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:32:19 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:32:19 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:33:43 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2982ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:33:46 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:33:46 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:33:46 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:33:46 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Tue Oct 11 11:43:20 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/application/trstrank" for 127.0.0.1 at Tue Oct 11 11:43:30 -0500 2011
+
+SyntaxError (/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:47: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.4ms)
+
+
+Started GET "/application/trstrank" for 127.0.0.1 at Tue Oct 11 11:43:43 -0500 2011
+  Processing by ApplicationController#trstrank as HTML
+Rendered application/trstrank.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3301ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:43:46 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:43:46 -0500 2011
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:43:46 -0500 2011
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:43:46 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/application/influencemetrics" for 127.0.0.1 at Tue Oct 11 11:44:26 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/influencemetrics.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2880ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:44:29 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:44:29 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:44:29 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:44:29 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/influencemetrics" for 127.0.0.1 at Tue Oct 11 11:50:05 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/trstrank.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3116ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:50:09 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:50:09 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:50:09 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/influencemetrics" for 127.0.0.1 at Tue Oct 11 11:50:19 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/trstrank.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2768ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:50:21 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:50:21 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:50:21 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:50:21 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/influencemetrics" for 127.0.0.1 at Tue Oct 11 11:51:16 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/table.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3175ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 11:51:20 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 11:51:20 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 11:51:20 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 11:51:20 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:00:46 -0500 2011
+
+LoadError (no such file to load -- twitter):
+  app/controllers/application_controller.rb:7
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:02:19 -0500 2011
+
+LoadError (no such file to load -- twitter):
+  app/controllers/application_controller.rb:7
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:02:40 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 803ms
+
+ActionView::MissingTemplate (Missing template application/stronglinks with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:coffee, :builder, :erb]}. Searched in:
+  * "/Users/jimengland/Code/trstrank/app/views"
+):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:03:31 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 853ms
+
+ActionView::MissingTemplate (Missing template application/stronglinks with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:coffee, :builder, :erb]}. Searched in:
+  * "/Users/jimengland/Code/trstrank/app/views"
+):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:04:19 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 523ms
+
+ActionView::MissingTemplate (Missing template application/stronglinks with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:coffee, :builder, :erb]}. Searched in:
+  * "/Users/jimengland/Code/trstrank/app/views"
+):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:05:11 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 837ms
+
+ActionView::MissingTemplate (Missing template application/stronglinks with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:coffee, :builder, :erb]}. Searched in:
+  * "/Users/jimengland/Code/trstrank/app/views"
+):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.3ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:12:04 -0500 2011
+
+SyntaxError (/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:73: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:12:15 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 4080ms
+
+NoMethodError (undefined method `all' for #<Hash:0x10e362ef0>):
+  app/controllers/application_controller.rb:69:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:12:58 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 3819ms
+
+NoMethodError (undefined method `limit' for #<Hash:0x10e33a220>):
+  app/controllers/application_controller.rb:69:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:19:02 -0500 2011
+
+SyntaxError (/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:62: syntax error, unexpected '(', expecting kEND
+    result[u] = JSON.parse(1..10)(buffer)
+                                  ^
+/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:75: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 12:49:54 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 200 OK in 4174ms (Views: 346.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/trstrank" for 127.0.0.1 at Tue Oct 11 13:01:54 -0500 2011
+  Processing by ApplicationController#trstrank as HTML
+Rendered application/table.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 5090ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 13:02:00 -0500 2011
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 13:02:00 -0500 2011
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 13:02:00 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 13:02:00 -0500 2011
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/application/trstrank" for 127.0.0.1 at Tue Oct 11 13:03:40 -0500 2011
+  Processing by ApplicationController#trstrank as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:45:in `trstrank'
+  app/controllers/application_controller.rb:41:in `each'
+  app/controllers/application_controller.rb:41:in `trstrank'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/application/trstrank" for 127.0.0.1 at Tue Oct 11 13:04:03 -0500 2011
+  Processing by ApplicationController#trstrank as HTML
+Rendered application/table.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3601ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 13:04:06 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 13:04:06 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 13:04:06 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 13:04:06 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:18:40 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 200 OK in 3882ms (Views: 276.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:19:20 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 241ms
+
+NameError (undefined local variable or method `strong_links' for #<ApplicationController:0x10e031c90>):
+  app/controllers/application_controller.rb:65:in `stronglinks'
+  app/controllers/application_controller.rb:64:in `times'
+  app/controllers/application_controller.rb:64:in `stronglinks'
+  app/controllers/application_controller.rb:59:in `each'
+  app/controllers/application_controller.rb:59:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:19:29 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 200 OK in 3797ms (Views: 281.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:20:49 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 339ms
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/application_controller.rb:65:in `+'
+  app/controllers/application_controller.rb:65:in `stronglinks'
+  app/controllers/application_controller.rb:64:in `times'
+  app/controllers/application_controller.rb:64:in `stronglinks'
+  app/controllers/application_controller.rb:59:in `each'
+  app/controllers/application_controller.rb:59:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:21:40 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 200 OK in 3715ms (Views: 286.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:24:12 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 1897ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/application_controller.rb:65:in `stronglinks'
+  app/controllers/application_controller.rb:64:in `times'
+  app/controllers/application_controller.rb:64:in `stronglinks'
+  app/controllers/application_controller.rb:59:in `each'
+  app/controllers/application_controller.rb:59:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:25:43 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 200 OK in 5069ms (Views: 291.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:27:15 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 200 OK in 6415ms (Views: 282.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 13:50:15 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 200 OK in 16788ms (Views: 309.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:04:48 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Rendered application/table.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 4219ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 14:04:52 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 14:04:52 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 14:04:52 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 14:04:52 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:16:13 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 829ms
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  app/controllers/application_controller.rb:65:in `stronglinks'
+  app/controllers/application_controller.rb:64:in `each'
+  app/controllers/application_controller.rb:64:in `stronglinks'
+  app/controllers/application_controller.rb:59:in `each'
+  app/controllers/application_controller.rb:59:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:16:44 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Rendered application/table.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16690ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 14:17:00 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 14:17:00 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 14:17:00 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 14:17:00 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:19:24 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 11589ms
+
+Twitter::Forbidden (GET https://api.twitter.com/1/friendships/exists.json?user_a=25116691&user_b=15748351: 403: Following information is not available for protected users without authentication.):
+  app/controllers/application_controller.rb:65:in `stronglinks'
+  app/controllers/application_controller.rb:64:in `each'
+  app/controllers/application_controller.rb:64:in `stronglinks'
+  app/controllers/application_controller.rb:59:in `each'
+  app/controllers/application_controller.rb:59:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:36:10 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 41708ms
+
+Twitter::NotFound (GET https://api.twitter.com/1/users/show.json?user_id=19540161: 404: Not found):
+  app/controllers/application_controller.rb:65:in `stronglinks'
+  app/controllers/application_controller.rb:64:in `each'
+  app/controllers/application_controller.rb:64:in `stronglinks'
+  app/controllers/application_controller.rb:59:in `each'
+  app/controllers/application_controller.rb:59:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:39:25 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 8669ms
+
+Twitter::BadRequest (GET https://api.twitter.com/1/friendships/exists.json?user_a=1554031&user_b=15748351: 400: Rate limit exceeded. Clients may not make more than 150 requests per hour.):
+  app/controllers/application_controller.rb:68:in `stronglinks'
+  app/controllers/application_controller.rb:64:in `each'
+  app/controllers/application_controller.rb:64:in `stronglinks'
+  app/controllers/application_controller.rb:59:in `each'
+  app/controllers/application_controller.rb:59:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:55:57 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/application/stronglinks"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:56:17 -0500 2011
+
+AbstractController::ActionNotFound (The action 'stronglinks' could not be found for ApplicationController):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.3ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:56:21 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `config' for Twitter:Module):
+  app/controllers/application_controller.rb:64:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.3ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 14:56:48 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 651ms
+
+RuntimeError (<#Hashie::Mash hourly_limit=150 remaining_hits=145 reset_time="Tue Oct 11 20:50:42 +0000 2011" reset_time_in_seconds=1318366242>):
+  app/controllers/application_controller.rb:69:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:00:19 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `oauth_secret=' for Twitter:Module):
+  app/controllers/application_controller.rb:68:in `stronglinks'
+  app/controllers/application_controller.rb:64:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.5ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:00:35 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 692ms
+
+RuntimeError (<#Hashie::Mash hourly_limit=150 remaining_hits=142 reset_time="Tue Oct 11 20:50:42 +0000 2011" reset_time_in_seconds=1318366242>):
+  app/controllers/application_controller.rb:72:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.1ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:01:39 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 831ms
+
+RuntimeError (<#Hashie::Mash hourly_limit=150 remaining_hits=142 reset_time="Tue Oct 11 20:50:42 +0000 2011" reset_time_in_seconds=1318366242>):
+  app/controllers/application_controller.rb:71:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:01:45 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 435ms
+
+Twitter::Unauthorized (GET https://api.twitter.com/1/account/verify_credentials.json: 401: Could not authenticate with OAuth.):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:02:05 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 838ms
+
+Twitter::Unauthorized (GET https://api.twitter.com/1/account/verify_credentials.json: 401: Could not authenticate with OAuth.):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:07:59 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 968ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:72:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:11:31 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 279ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:72:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.7ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:21:47 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 756ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:21:50 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 247ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:22:12 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 256ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:22:32 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 241ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:22:37 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 255ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:22:45 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 949ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:22:59 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 285ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:23:11 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 658ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:23:50 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 787ms
+
+Twitter::Unauthorized (GET https://api.twitter.com/1/account/verify_credentials.json: 401: Could not authenticate you.):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:24:04 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 518ms
+
+Twitter::Unauthorized (GET https://api.twitter.com/1/account/verify_credentials.json: 401: Could not authenticate you.):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:24:19 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 431ms
+
+Twitter::Unauthorized (GET https://api.twitter.com/1/account/verify_credentials.json: 401: Could not authenticate you.):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:24:26 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 1715ms
+
+Twitter::Unauthorized (GET https://api.twitter.com/1/account/verify_credentials.json: 401: Could not authenticate you.):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:24:41 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 576ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:25:06 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 544ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:25:17 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 474ms
+
+Twitter::Unauthorized (GET https://api.twitter.com/1/account/verify_credentials.json: 401: Could not authenticate you.):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:25:27 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 425ms
+
+RuntimeError (<#Hashie::Mash hourly_limit=150 remaining_hits=141 reset_time="Tue Oct 11 20:50:42 +0000 2011" reset_time_in_seconds=1318366242>):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:25:50 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:25:52 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `closed?' for nil:NilClass):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:26:00 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 673ms
+
+RuntimeError (<#Hashie::Mash hourly_limit=20000 remaining_hits=17093 reset_time="Tue Oct 11 20:54:39 +0000 2011" reset_time_in_seconds=1318366479>):
+  app/controllers/application_controller.rb:73:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:31:56 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 636ms
+
+RuntimeError (<#Hashie::Mash hourly_limit=20000 remaining_hits=16631 reset_time="Tue Oct 11 20:54:39 +0000 2011" reset_time_in_seconds=1318366479>):
+  app/controllers/application_controller.rb:70:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:32:04 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 653ms
+
+Twitter::Forbidden (GET http://twitter-api-app697331.apigee.com/1/friendships/exists.json?user_a=15648312&user_b=15748351: 403: Could not find both specified users.):
+  app/controllers/application_controller.rb:71:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.7ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:33:17 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 1017ms
+
+RuntimeError (#<Twitter::Forbidden: GET http://twitter-api-app697331.apigee.com/1/friendships/exists.json?user_a=15648312&user_b=15748351: 403: Could not find both specified users.>):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.6ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:33:44 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 585ms
+
+RuntimeError (#<Twitter::Forbidden: GET http://twitter-api-app697331.apigee.com/1/friendships/exists.json?user_a=15215494&user_b=15748351: 403: Following information is not available for protected users without authentication.>):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:34:07 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Completed 500 Internal Server Error in 267ms
+
+RuntimeError ([Twitter::Forbidden, Twitter::Error, StandardError, Exception, ActiveSupport::Dependencies::Blamable, Object, ActiveSupport::Dependencies::Loadable, Base64::Deprecated, Base64, JSON::Ext::Generator::GeneratorMethods::Object, Kernel]):
+  app/controllers/application_controller.rb:75:in `stronglinks'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.8ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:38:36 -0500 2011
+
+SyntaxError (/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:83: syntax error, unexpected kRESCUE
+        rescue Twitter::Error            
+              ^
+/Users/jimengland/Code/trstrank/app/controllers/application_controller.rb:127: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (3.9ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:49:40 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Rendered application/table.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20495ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 15:50:01 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 15:50:01 -0500 2011
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 15:50:01 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 15:50:01 -0500 2011
+Served asset /application.js - 304 Not Modified (47ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:50:35 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Rendered application/table.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30341ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 15:51:06 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 15:51:06 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 15:51:06 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 15:51:06 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Tue Oct 11 15:52:58 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Rendered application/table.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35638ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Tue Oct 11 15:53:34 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Tue Oct 11 15:53:34 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Tue Oct 11 15:53:34 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Tue Oct 11 15:53:34 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/influencemetrics" for 127.0.0.1 at Thu Oct 13 11:48:57 -0500 2011
+  Processing by ApplicationController#influencemetrics as HTML
+Rendered application/table.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 2348ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Oct 13 11:49:00 -0500 2011
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Oct 13 11:49:00 -0500 2011
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Oct 13 11:49:00 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Oct 13 11:49:00 -0500 2011
+Served asset /application.js - 304 Not Modified (55ms)
+
+
+Started GET "/application/trstrank" for 127.0.0.1 at Thu Oct 13 11:50:11 -0500 2011
+  Processing by ApplicationController#trstrank as HTML
+Rendered application/table.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2276ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Oct 13 11:50:14 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Oct 13 11:50:14 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Oct 13 11:50:14 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Oct 13 11:50:14 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Thu Oct 13 11:51:40 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Rendered application/table.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20075ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Oct 13 11:52:00 -0500 2011
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Oct 13 11:52:00 -0500 2011
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Oct 13 11:52:00 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Oct 13 11:52:00 -0500 2011
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Oct 14 10:55:28 -0500 2011
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (16.2ms)
+
+
+Started GET "/application/stronglinks" for 127.0.0.1 at Fri Oct 14 10:55:35 -0500 2011
+  Processing by ApplicationController#stronglinks as HTML
+Rendered application/table.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19859ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Fri Oct 14 10:55:55 -0500 2011
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Fri Oct 14 10:55:55 -0500 2011
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Fri Oct 14 10:55:55 -0500 2011
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Fri Oct 14 10:55:55 -0500 2011
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/trstrank/trstrank" for 127.0.0.1 at Fri Oct 14 11:19:39 -0500 2011
+  Processing by TrstrankController#trstrank as HTML
+Completed 500 Internal Server Error in 2130ms
+
+ActionView::MissingTemplate (Missing template application/table with {:locale=>[:en, :en], :formats=>[:html], :handlers=>[:coffee, :builder, :erb]}. Searched in:
+  * "/Users/jimengland/Code/trstrank/app/views"
+  * "/Users/jimengland/Code/trstrank"
+  * "/"
+):
+  app/controllers/trstrank_controller.rb:52:in `trstrank'
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (17.1ms)
+
+
+Started GET "/trstrank/trstrank" for 127.0.0.1 at Fri Oct 14 11:20:09 -0500 2011
+  Processing by TrstrankController#trstrank as HTML
+Rendered trstrank/table.html.erb (0.5ms)
+Completed 200 OK in 2042ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trstrank/influencemetrics" for 127.0.0.1 at Fri Oct 14 11:20:18 -0500 2011
+  Processing by TrstrankController#influencemetrics as HTML
+Rendered trstrank/table.html.erb (0.2ms)
+Completed 200 OK in 2272ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/trstrank/stronglinks" for 127.0.0.1 at Fri Oct 14 11:20:27 -0500 2011
+  Processing by TrstrankController#stronglinks as HTML
+Rendered trstrank/table.html.erb (0.3ms)
+Completed 200 OK in 15743ms (Views: 4.5ms | ActiveRecord: 0.0ms)
